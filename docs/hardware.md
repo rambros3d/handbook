@@ -1,6 +1,5 @@
-
 # Recommended Hardware
-Most of our RC scale models use BLDC motors (especially A2212 motor). Here's some extra info about the motors
+All of our RC scale models use BLDC motors (especially A2212 motor). Here's some extra info about the motors.
 
 ## 1.Motors
 ### A2212 Motor
