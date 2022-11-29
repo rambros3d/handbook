@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html class="writer-html5" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<title>Hardware - Rambros Handbook</title>
+<link href="../css/theme.css" rel="stylesheet"/>
+<link href="../css/theme_extra.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" rel="stylesheet"/>
+<script>
+        // Current page data
+        var mkdocs_page_name = "Hardware";
+        var mkdocs_page_input_path = "hardware.md";
+        var mkdocs_page_url = null;
+      </script>
+<script defer="" src="../js/jquery-3.6.0.min.js"></script>
+<!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/yaml.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/arduino.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/openscad.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            </style><script src="../assets/javascripts/glightbox.min.js"></script></head>
+<body class="wy-body-for-nav" role="document">
+<div class="wy-grid-for-nav">
+<nav class="wy-nav-side stickynav" data-toggle="wy-nav-shift">
+<div class="wy-side-scroll">
+<div class="wy-side-nav-search">
+<a href="..">
+<img alt="Logo" class="logo" src="../logo/rambros-logo.svg"/>
+</a>
+</div>
+<div aria-label="Navigation menu" class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+</li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal current" href="./">Hardware</a>
+<ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="#1motors">1.Motors</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#2esc">2.ESC</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#3servo-motor">3.Servo motor</a>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../blheli/">Blheli_S</a>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="..">About</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<section class="wy-nav-content-wrap" data-toggle="wy-nav-shift">
+<nav aria-label="Mobile navigation menu" class="wy-nav-top" role="navigation">
+<i class="fa fa-bars" data-toggle="wy-nav-top"></i>
+<a href="..">Rambros Handbook</a>
+</nav>
+<div class="wy-nav-content">
+<div class="rst-content"><div aria-label="breadcrumbs navigation" role="navigation">
+<ul class="wy-breadcrumbs">
+<li><a alt="Docs" class="icon icon-home" href=".."></a> »</li>
+<li>Hardware</li>
+<li class="wy-breadcrumbs-aside">
+</li>
+</ul>
+<hr/>
+</div>
+<div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
+<div class="section" itemprop="articleBody">
+<h1 id="recommended-hardware">Recommended Hardware<a class="headerlink" href="#recommended-hardware" title="Permanent link">¶</a></h1>
+<p>Most of our RC scale models use BLDC motors (especially A2212 motor). Here's some extra info about the motors</p>
+<h2 id="1motors">1.Motors<a class="headerlink" href="#1motors" title="Permanent link">¶</a></h2>
+<h3 id="a2212-motor">A2212 Motor<a class="headerlink" href="#a2212-motor" title="Permanent link">¶</a></h3>
+<p>The models numbers can be confusing since <strong>2212 and 2826</strong> are basically the <strong>same motor</strong>.</p>
+<ul>
+<li><strong>2212</strong> - This is stator size of the motor (22mm diameter x 12mm height)</li>
+<li><strong>2826</strong> - This is casing size of the motor (28mm diameter x 26mm height)</li>
+</ul>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/A2212-motor-size.jpeg"><img alt="a2212 size" src="../images/A2212-motor-size.jpeg" style="height:300px"/></a>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/2826-motor-size.jpeg"><img alt="2826 size" src="../images/2826-motor-size.jpeg" style="height:300px"/></a></p>
+<h2 id="2esc">2.ESC<a class="headerlink" href="#2esc" title="Permanent link">¶</a></h2>
+<p>A suitable ESC would be required for the BLDC motors.
+<strong>20A ESC</strong> would be suited for a A2212 motor. Blheli_S is the preferred choice for our models.
+Read more in the <a href="../blheli/">Blheli_S section.</a></p>
+<h2 id="3servo-motor">3.Servo motor<a class="headerlink" href="#3servo-motor" title="Permanent link">¶</a></h2>
+<p>For the servo, you can use any 9g servo. Even the common Blue servos will work fine.
+I recommended MG90S servo, they have better build quality and work smoothly.</p>
+</div>
+</div><footer>
+<div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
+<a class="btn btn-neutral float-left" href=".." title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+<a class="btn btn-neutral float-right" href="../blheli/" title="Blheli_S">Next <span class="icon icon-circle-arrow-right"></span></a>
+</div>
+<hr/>
+<div role="contentinfo">
+<!-- Copyright etc -->
+</div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+</div>
+</div>
+</section>
+</div>
+<div aria-label="Versions" class="rst-versions" role="note">
+<span class="rst-current-version" data-toggle="rst-current-version">
+<span><a href=".." style="color: #fcfcfc">« Previous</a></span>
+<span><a href="../blheli/" style="color: #fcfcfc">Next »</a></span>
+</span>
+</div>
+<script>var base_url = '..';</script>
+<script defer="" src="../js/theme_extra.js"></script>
+<script defer="" src="../js/theme.js"></script>
+<script defer="">
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+<script>const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});</script></body>
+</html>
