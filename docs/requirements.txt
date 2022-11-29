@@ -1,0 +1,6 @@
+# Info
+mkdocs
+pymdown-extensions
+mkdocs-material
+mkdocs-glightbox
+
