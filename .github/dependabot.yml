@@ -9,7 +9,7 @@ updates:
     - 'Type: library updates'
     - 'Target: Python (pip)'
   - package-ecosystem: "github-actions"
-    directory: "/" # Location of package manifests
+    directory: "/"
     schedule:
       interval: "daily"
     labels:
