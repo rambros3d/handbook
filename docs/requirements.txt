@@ -2,5 +2,6 @@
 mkdocs
 pymdown-extensions
 mkdocs-material
+mkdocs-material-extensions
 mkdocs-glightbox
 
