@@ -1,7 +1,4 @@
 # Blheli_S ESC
-
-This guide will be focused on setting up Blheli_S, since it is the recommended ESC for our RC models.
-
 ![alt text](images/blheli-littlebee.webp){: style="height:200px"}
 ![alt text](images/blheli-readytosky.webp){: style="height:200px"}
 ![alt text](images/blheli-dys.webp){: style="height:160px"} 
@@ -20,7 +17,9 @@ This guide will be focused on setting up Blheli_S, since it is the recommended E
 * Requires a **Flight controller or Arduino** for configuration
 
 ## How to configure Blheli_S?
-Blheli_S esc can be configured using **[esc-configurator](https://esc-configurator.com)**
+Blheli_S esc can be configured using 
+![alt text](logo/esc-configurator.webp){: style="height:30px"} 
+**[ESC-configurator](https://esc-configurator.com)**
 
 ### Additional hardware required
 Arduino (UNO or Nano) or Flight controller can be used as programmer

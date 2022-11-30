@@ -12,9 +12,9 @@ theme:
     logo: logo/rambros-logo.svg
 nav:
     - Home: 'index.md'
-    - Hardware: 'hardware.md'    
+    - Hardware: 'hardware.md'
+    - Electronics: 'electronics.md'    
     - Blheli_S ESC: 'blheli.md'
-    - Electronics: 'electronics.md'
     - Sounds & Lights: 'sounds-lights.md'  
     - Printing: 'printing.md'
     
