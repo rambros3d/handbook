@@ -40,7 +40,7 @@ Since Blheli_S was originally designed for Quads and Helis, we have to change so
 ### Powering other electronics
 
 Blheli_S ESC don't have inbuilt BEC like the crawler ESCs
-You have to buy a BEC to power the RX receiver and Servos.
+You have to buy a BEC to power the Receiver and Servos.
 Alternatively, You can also use a 5V buck convertor (less than $3).
 ![alt text](images/ubec.webp){: style="height:300px"} 
 ![alt text](images/mp1584.webp){: style="height:200px"} 
