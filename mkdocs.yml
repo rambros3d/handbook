@@ -17,6 +17,7 @@ nav:
     - Electronics: 'electronics.md'
     - Sounds & Lights: 'sounds-lights.md'  
     - Printing: 'printing.md'
+    
 markdown_extensions:
     - pymdownx.betterem
     - pymdownx.superfences
@@ -26,6 +27,7 @@ markdown_extensions:
     - markdown.extensions.tables
     - markdown.extensions.abbr
     - markdown.extensions.md_in_html
+    - markdown.extensions.admonition
     - pymdownx.magiclink
     - pymdownx.smartsymbols
     - pymdownx.emoji

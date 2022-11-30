@@ -57,3 +57,5 @@ Any Transmitter and Receiver will work well with our models, it needs be chosen 
 
 ![alt text](images/flysky-i6s.webp){: style="height:250px"}
 ![alt text](images/zorro.webp){: style="height:200px"} 
+
+

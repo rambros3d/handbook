@@ -17,7 +17,6 @@ This guide will be focused on setting up Blheli_S, since it is the recommended E
 
 ### Disadvantages
 * They don't have **inbuilt BEC**
-* **Initial configuration** is required
 * Requires a **Flight controller or Arduino** for configuration
 
 ## How to configure Blheli_S?
@@ -29,7 +28,7 @@ Arduino (UNO or Nano) or Flight controller can be used as programmer
 1. **Flight controller** - works directly with ***betaflight*** firmware, no additional flashing required
 2. **Arduino guide** - [use Arduino as *ESC programmer*](https://youtu.be/i6lhMcQLRSU)
 
-### Firmware settings
+## Firmware settings
 Since Blheli_S was originally designed for Quads and Helis, we have to change some settings before using them in our models
 
 * **Motor direction** - Set to ***Bi-directional*** mode
@@ -43,4 +42,6 @@ Since Blheli_S was originally designed for Quads and Helis, we have to change so
 Blheli_S ESC don't have inbuilt BEC like the crawler ESCs
 You have to buy a BEC to power the RX receiver and Servos.
 Alternatively, You can also use a 5V buck convertor (less than $3).
+![alt text](images/ubec.webp){: style="height:300px"} 
+![alt text](images/mp1584.webp){: style="height:200px"} 
 
