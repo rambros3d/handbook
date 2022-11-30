@@ -4,67 +4,69 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="None" name="description"/>
-<link href="img/favicon.ico" rel="shortcut icon"/>
-<title>Rambros Handbook</title>
-<link href="css/theme.css" rel="stylesheet"/>
-<link href="css/theme_extra.css" rel="stylesheet"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<title>Electronics - Rambros Handbook</title>
+<link href="../css/theme.css" rel="stylesheet"/>
+<link href="../css/theme_extra.css" rel="stylesheet"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" rel="stylesheet"/>
 <script>
         // Current page data
-        var mkdocs_page_name = "Home";
-        var mkdocs_page_input_path = "index.md";
+        var mkdocs_page_name = "Electronics";
+        var mkdocs_page_input_path = "electronics.md";
         var mkdocs_page_url = null;
       </script>
-<script defer="" src="js/jquery-3.6.0.min.js"></script>
+<script defer="" src="../js/jquery-3.6.0.min.js"></script>
 <!--[if lt IE 9]>
-      <script src="js/html5shiv.min.js"></script>
+      <script src="../js/html5shiv.min.js"></script>
     <![endif]-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/yaml.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/arduino.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/openscad.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
-<link href="assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+<link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
             html.glightbox-open { overflow: initial; height: 100%; }
             .gslide-title { margin-top: 0px; user-select: text; }
             .gslide-desc { color: #666; user-select: text; }
             .gslide-image img { background: white; }
-            </style><script src="assets/javascripts/glightbox.min.js"></script></head>
+            </style><script src="../assets/javascripts/glightbox.min.js"></script></head>
 <body class="wy-body-for-nav" role="document">
 <div class="wy-grid-for-nav">
 <nav class="wy-nav-side stickynav" data-toggle="wy-nav-shift">
 <div class="wy-side-scroll">
 <div class="wy-side-nav-search">
-<a href=".">
-<img alt="Logo" class="logo" src="logo/rambros-logo.svg"/>
+<a href="..">
+<img alt="Logo" class="logo" src="../logo/rambros-logo.svg"/>
 </a>
 </div>
 <div aria-label="Navigation menu" class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../hardware/">Hardware</a>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../blheli/">Blheli_S ESC</a>
+</li>
+</ul>
 <ul class="current">
-<li class="toctree-l1 current"><a class="reference internal current" href=".">Home</a>
+<li class="toctree-l1 current"><a class="reference internal current" href="./">Electronics</a>
 <ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="#rc-basics-for-beginners">RC basics for beginners</a>
+</li>
 </ul>
 </li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="hardware/">Hardware</a>
+<li class="toctree-l1"><a class="" href="../sounds-lights.md">Sounds &amp; Lights</a>
 </li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="blheli/">Blheli_S ESC</a>
-</li>
-</ul>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="electronics/">Electronics</a>
-</li>
-</ul>
-<ul>
-<li class="toctree-l1"><a class="" href="sounds-lights.md">Sounds &amp; Lights</a>
-</li>
-</ul>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="printing/">Printing</a>
+<li class="toctree-l1"><a class="reference internal" href="../printing/">Printing</a>
 </li>
 </ul>
 </div>
@@ -73,13 +75,13 @@
 <section class="wy-nav-content-wrap" data-toggle="wy-nav-shift">
 <nav aria-label="Mobile navigation menu" class="wy-nav-top" role="navigation">
 <i class="fa fa-bars" data-toggle="wy-nav-top"></i>
-<a href=".">Rambros Handbook</a>
+<a href="..">Rambros Handbook</a>
 </nav>
 <div class="wy-nav-content">
 <div class="rst-content"><div aria-label="breadcrumbs navigation" role="navigation">
 <ul class="wy-breadcrumbs">
-<li><a alt="Docs" class="icon icon-home" href="."></a> »</li>
-<li>Home</li>
+<li><a alt="Docs" class="icon icon-home" href=".."></a> »</li>
+<li>Electronics</li>
 <li class="wy-breadcrumbs-aside">
 </li>
 </ul>
@@ -87,23 +89,15 @@
 </div>
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
-<h1 id="rambros-handbook">Rambros handbook<a class="headerlink" href="#rambros-handbook" title="Permanent link">¶</a></h1>
-<p>FAQs and Getting started guides</p>
-<p><strong>Watch our videos:</strong></p>
-<ul>
-<li><a href="https://www.youtube.com/@RamBrosWorkshop"><strong>Youtube</strong></a> - Subscribe for new videos</li>
-<li><a href="https://odysee.com/@rambros:6"><strong>Odysee</strong></a> - It's like Youtube, without Ads</li>
-</ul>
-<p><strong>Downloads models:</strong></p>
-<ul>
-<li><a href="https://www.printables.com/social/303687"><strong>Printables</strong></a> - Download free models here</li>
-<li><a href="https://cults3d.com/en/users/rambros/creations"><strong>Cults3D</strong></a> - Free/Premium models</li>
-</ul>
-<p>Join the <a href="https://app.revolt.chat/invite/JacMpJHW"><strong>Revolt server</strong></a> for help and discussion</p>
+<h1 id="electronics">Electronics<a class="headerlink" href="#electronics" title="Permanent link">¶</a></h1>
+<h2 id="rc-basics-for-beginners">RC basics for beginners<a class="headerlink" href="#rc-basics-for-beginners" title="Permanent link">¶</a></h2>
+<p><a href="https://www.youtube.com/watch?v=itUQRTRTy7U">RC Electronic Basics - Terms and Names - Get Into RC | RC Driver</a></p>
+<p><a href="https://www.youtube.com/watch?v=TZ_I9gQHgv4">How does an RC car work? Hobby Electronics Explained!</a></p>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
-<a class="btn btn-neutral float-right" href="hardware/" title="Hardware">Next <span class="icon icon-circle-arrow-right"></span></a>
+<a class="btn btn-neutral float-left" href="../blheli/" title="Blheli_S ESC"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+<a class="btn btn-neutral float-right" href="../printing/" title="Printing">Next <span class="icon icon-circle-arrow-right"></span></a>
 </div>
 <hr/>
 <div role="contentinfo">
@@ -118,12 +112,13 @@
 </div>
 <div aria-label="Versions" class="rst-versions" role="note">
 <span class="rst-current-version" data-toggle="rst-current-version">
-<span><a href="hardware/" style="color: #fcfcfc">Next »</a></span>
+<span><a href="../blheli/" style="color: #fcfcfc">« Previous</a></span>
+<span><a href="../printing/" style="color: #fcfcfc">Next »</a></span>
 </span>
 </div>
-<script>var base_url = '.';</script>
-<script defer="" src="js/theme_extra.js"></script>
-<script defer="" src="js/theme.js"></script>
+<script>var base_url = '..';</script>
+<script defer="" src="../js/theme_extra.js"></script>
+<script defer="" src="../js/theme.js"></script>
 <script defer="">
         window.onload = function () {
             SphinxRtdTheme.Navigation.enable(true);
@@ -131,7 +126,3 @@
     </script>
 <script>const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});</script></body>
 </html>
-<!--
-MkDocs version : 1.4.2
-Build Date UTC : 2022-11-30 08:27:07.502373+00:00
--->

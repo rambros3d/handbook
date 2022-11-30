@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html class="writer-html5" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<title>Printing - Rambros Handbook</title>
+<link href="../css/theme.css" rel="stylesheet"/>
+<link href="../css/theme_extra.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" rel="stylesheet"/>
+<script>
+        // Current page data
+        var mkdocs_page_name = "Printing";
+        var mkdocs_page_input_path = "printing.md";
+        var mkdocs_page_url = null;
+      </script>
+<script defer="" src="../js/jquery-3.6.0.min.js"></script>
+<!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/yaml.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/arduino.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/openscad.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            </style><script src="../assets/javascripts/glightbox.min.js"></script></head>
+<body class="wy-body-for-nav" role="document">
+<div class="wy-grid-for-nav">
+<nav class="wy-nav-side stickynav" data-toggle="wy-nav-shift">
+<div class="wy-side-scroll">
+<div class="wy-side-nav-search">
+<a href="..">
+<img alt="Logo" class="logo" src="../logo/rambros-logo.svg"/>
+</a>
+</div>
+<div aria-label="Navigation menu" class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../hardware/">Hardware</a>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../blheli/">Blheli_S ESC</a>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../electronics/">Electronics</a>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="" href="../sounds-lights.md">Sounds &amp; Lights</a>
+</li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal current" href="./">Printing</a>
+<ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="#why-cura">Why Cura?</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#other-slicers">Other Slicers</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<section class="wy-nav-content-wrap" data-toggle="wy-nav-shift">
+<nav aria-label="Mobile navigation menu" class="wy-nav-top" role="navigation">
+<i class="fa fa-bars" data-toggle="wy-nav-top"></i>
+<a href="..">Rambros Handbook</a>
+</nav>
+<div class="wy-nav-content">
+<div class="rst-content"><div aria-label="breadcrumbs navigation" role="navigation">
+<ul class="wy-breadcrumbs">
+<li><a alt="Docs" class="icon icon-home" href=".."></a> »</li>
+<li>Printing</li>
+<li class="wy-breadcrumbs-aside">
+</li>
+</ul>
+<hr/>
+</div>
+<div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
+<div class="section" itemprop="articleBody">
+<h2 id="slicer">Slicer<a class="headerlink" href="#slicer" title="Permanent link">¶</a></h2>
+<p>Recommended Slicer : <strong>Cura - <a href="https://ultimaker.com/software/ultimaker-cura">Download latest</a></strong></p>
+<h3 id="why-cura">Why Cura?<a class="headerlink" href="#why-cura" title="Permanent link">¶</a></h3>
+<p><strong>Advantages:</strong></p>
+<ul>
+<li>Supports and Rafts are very clean (This is the main reason I use Cura)</li>
+<li>Interface is simple</li>
+<li>Wide range of Plugins available</li>
+</ul>
+<p><strong>Disadvantages:</strong></p>
+<ul>
+<li>Slow startup - fix with <a href="https://marketplace.ultimaker.com/app/cura/plugins/fieldofview/StartOptimiser">Startup Optimizer</a></li>
+<li>Pause at height feature is not straightforward - <a href="https://all3dp.com/2/cura-pause-at-height-how-to-do-it/">more info</a></li>
+</ul>
+<h3 id="other-slicers">Other Slicers<a class="headerlink" href="#other-slicers" title="Permanent link">¶</a></h3>
+<p>You can also use these slicers if they work well for you, but I switched to Cura since its better with supports and rafts.</p>
+<ul>
+<li>Superslicer - best support for Klipper firmware - <a href="https://github.com/supermerill/SuperSlicer/releases/latest">Download</a></li>
+<li>Prusaslicer - <a href="https://github.com/prusa3d/PrusaSlicer/releases/latest">Download</a></li>
+</ul>
+<p>Initially small parts like gears printed well only with Cura. In late 2022 that was fixed when Prusa/SuperSlicer switched to Arachne engine. Hopefully they fix the supports issue too.</p>
+<h2 id="printing-tips">Printing tips<a class="headerlink" href="#printing-tips" title="Permanent link">¶</a></h2>
+</div>
+</div><footer>
+<div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
+<a class="btn btn-neutral float-left" href="../electronics/" title="Electronics"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+</div>
+<hr/>
+<div role="contentinfo">
+<!-- Copyright etc -->
+</div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+</div>
+</div>
+</section>
+</div>
+<div aria-label="Versions" class="rst-versions" role="note">
+<span class="rst-current-version" data-toggle="rst-current-version">
+<span><a href="../electronics/" style="color: #fcfcfc">« Previous</a></span>
+</span>
+</div>
+<script>var base_url = '..';</script>
+<script defer="" src="../js/theme_extra.js"></script>
+<script defer="" src="../js/theme.js"></script>
+<script defer="">
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+<script>const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});</script></body>
+</html>
