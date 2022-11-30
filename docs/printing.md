@@ -1,13 +1,15 @@
 ## Slicer
-Recommended Slicer : **Cura - [Download latest](https://ultimaker.com/software/ultimaker-cura
+Recommended Slicer :
+![alt text](logo/cura.webp){: style="height:25px"} 
+Cura - **[Download](https://ultimaker.com/software/ultimaker-cura
 )**
 
 ### Why Cura?
 
 **Advantages:**
 
-* Supports and Rafts are very clean (This is the main reason I use Cura)
-* Interface is simple
+* **Supports and Rafts** are very clean (This is the main reason I use Cura)
+* **Simple Interface** - very intuitive for beginners
 * Wide range of Plugins available
 
 **Disadvantages:**
@@ -21,6 +23,6 @@ You can also use these slicers if they work well for you, but I switched to Cura
 * Superslicer - best support for Klipper firmware - [Download](https://github.com/supermerill/SuperSlicer/releases/latest)
 * Prusaslicer - [Download](https://github.com/prusa3d/PrusaSlicer/releases/latest)
 
-Initially small parts like gears printed well only with Cura. In late 2022 that was fixed when Prusa/SuperSlicer switched to Arachne engine. Hopefully they fix the supports issue too.
+In the past, small parts like gears printed well only with Cura. In late 2022 that was fixed when Prusa/SuperSlicer switched to Arachne engine. Hopefully they fix the supports issue too.
 
 ## Printing tips

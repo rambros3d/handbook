@@ -11,12 +11,12 @@ theme:
         - openscad
     logo: logo/rambros-logo.svg
 nav:
-    - Home: 'index.md'
+    - Home: 'index.md'  
+    - Printing: 'printing.md'
     - Hardware: 'hardware.md'
     - Electronics: 'electronics.md'    
     - Blheli_S ESC: 'blheli.md'
-    - Sounds & Lights: 'sounds-lights.md'  
-    - Printing: 'printing.md'
+    - Sounds & Lights: 'sounds-lights.md'
     
 markdown_extensions:
     - pymdownx.betterem

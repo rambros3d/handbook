@@ -24,9 +24,9 @@ Our smaller builds like **1/64** scale use this motor.
 
 This runs on less than 5A current. **5-20A ESC** is suitable for this motor
 
-![a2212 size](images/1104-motor2.webp){: style="height:160px"}
-![2826 size](images/1104-dys.webp){: style="height:180px"}
-![a2212 size](images/1104-motor1.webp){: style="height:200px"}
+![a2212 size](images/1104-motor2.webp){: style="height:140px"}
+![2826 size](images/1104-dys.webp){: style="height:160px"}
+![a2212 size](images/1104-motor1.webp){: style="height:180px"}
 
 ## 2. ESC
 A suitable ESC would be required for the BLDC motors.
@@ -45,13 +45,14 @@ You can use any 9g servo. Even the common Blue servos will work fine.
 ![alt text](images/servo-sg90.webp){: style="height:200px"} 
 
 ## 4. Battery
-Li-Ion, Li-Po batteries are recommended for our models.
+Li-Ion, Li-Po batteries are recommended for our builds.
 
 ??? note
 	Lithium batteries require a dedicated balance charger for safe operation.
 
 ## 5. TX & RX
-### Choosing a transmitter
+
+### Choosing a Transmitter
 Any Transmitter and Receiver will work well with our models, it needs be chosen as per your preferences. So what to look for when choosing a transmitter:
 
 * **Number of channels** - 6 would be a good start, better to have more than falling short
@@ -61,7 +62,7 @@ Any Transmitter and Receiver will work well with our models, it needs be chosen 
 
 
 ### What I use
-1) **Flysky i6S**, I bought it in 2017. It is still working great.
+1) **Flysky i6S**, I bought this in 2017. It is still working great.
 
 2) **Radiomaster Zorro**, probably overkill. Has tons of features
 
