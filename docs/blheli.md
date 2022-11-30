@@ -2,13 +2,18 @@
 
 This guide will be focused on setting up Blheli_S, since it is the recommended ESC for our RC models.
 
+![alt text](images/blheli-littlebee.webp){: style="height:200px"}
+![alt text](images/blheli-readytosky.webp){: style="height:200px"}
+![alt text](images/blheli-dys.webp){: style="height:160px"} 
+
 ## Why Blheli_S ESC?
 
 ### Advantages
 * Better **Low RPM** performance
 * Relatively **cheap** for driving BLDC motors
 * **Compact and Lightweight**
-* Highly configurable with esc-configurator
+* **Easily configurable** with esc-configurator
+* Wide range of hardware available
 
 ### Disadvantages
 * They don't have **inbuilt BEC**
@@ -31,7 +36,7 @@ Since Blheli_S was originally designed for Quads and Helis, we have to change so
 * **Startup power** - Start with a **low** value, then increase as necessary.
 * **Low RPM protection** - ***Disable***
 * **Demag compensation** - This is a safety feature, The ESC will cutoff power to motor if the motor is stalled. To be set to ***LOW***
-* **Motor timing** - 
+* **Motor timing** - Set to **LOW**, this enables smooth low RPM performance
 
 ### Powering other electronics
 
