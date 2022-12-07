@@ -1,6 +1,6 @@
 ## Slicer
 Recommended Slicer :
-![alt text](logo/cura.webp){: style="height:25px"} 
+![alt text](icons/cura.webp){: style="height:25px"} 
 Cura - **[Download](https://ultimaker.com/software/ultimaker-cura
 )**
 

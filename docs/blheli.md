@@ -18,7 +18,7 @@
 
 ## How to configure Blheli_S?
 Blheli_S esc can be configured using 
-![alt text](logo/esc-configurator.webp){: style="height:30px"} 
+![alt text](icons/esc-configurator.webp){: style="height:30px"} 
 **[ESC-configurator](https://esc-configurator.com)**
 
 ### Additional hardware required
